@@ -1,30 +1,31 @@
 let html = document.querySelector("#html")
 let style = document.querySelector("#style")
-let string = `/* 你好,我是一名前端工程师
- * 接下来我要开始加样式了
- * 首先我要准备一个div
+let string = `/* 你好,我是一名前端工程师Xinhai
+ * 我将用代码画一下中国的优美太极两仪图。
+ * 《周易》道：“易有太极，是生两仪。两仪生四象，四象生八卦。”
+ * 注意看好了，接下来我要开始加样式了
+ * 首先,准备一个div
  */
 #div1{
     border: 1px solid blue;
     width: 200px;
     height: 200px;
 }
-/* 接下来我把div变成一个中国的八卦图
- * 注意看好了
- * 首先,把div变为一个圆
+/* 
+ * 然后,把div变为一个圆
  */
 #div1{
     border-radius: 50%;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     border: none;
 }
-/*八卦是阴阳形成的
- * 一黑一白
+/* 两仪是阴阳分明的
+ * 阴阳为一黑一白
  */
 #div1{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
 }
-/* 加入两个神秘的小球 */
+/* 加入一黑一白两个“风火轮” */
 #div1::before{
     width: 100px;
     height: 100px;
